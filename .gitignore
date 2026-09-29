@@ -1,0 +1,21 @@
+# Local credentials and environment-specific files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Frontend build output and installed dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded study files are private user material
+backend/uploads/
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
